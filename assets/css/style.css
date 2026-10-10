@@ -47,7 +47,7 @@ body::before {
   background-image:
     url(../img/knockonwood-720.webp),
     url(data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAQBQCdASoUABQAPu1urlIppiQiqAgBMB2JbACdMoSCmA5NQQ3ieoyLHyvOhuxvhfAAAP6DbR/SaD6Ir2TZr2C8pjDOSE3WH4jfpAyRJxqzeRCnNn4BBnMKa0RNnqSEmuLkAnf7wd+CcptBYgf8kq+mGQox+UvQXvd8HMZm94gm/lvWuJvWLiZojsIPnoHSFZ6iEGmpQ1aUfI5X/Zzd0/dC8tEZuvNLNVW/lwhHfOoHvV3otB9kocCtvht7wiK/z7AAAA==);
-  background-position: center 25%; /* keep the face in frame on wide screens */
+  background-position: center top; /* head is at the very top of the photo, so crop from the bottom on wide screens */
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -2;
