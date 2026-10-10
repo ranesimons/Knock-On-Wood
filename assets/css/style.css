@@ -32,7 +32,7 @@ html, body {
 }
 
 body {
-  background-color: #c1b197;
+  background-color: #824a2b;
 }
 
 /*
@@ -43,10 +43,10 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background-color: #c1b197;
+  background-color: #824a2b;
   background-image:
-    url(../img/ahighertruth-720.webp),
-    url(data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAACQBQCdASoUAB4APuVepk2pJSOiN/VYASAciUATpmNn7s/4HuPElmlaLYxYAEMIAXvOUFODgAD+9gviMFnvNs2TB1NrlKxoa1BvGA5ZcDeQtwizonouUMXsELotAotfuo81aaLcQKIlOyKi9su2VjRSuIGO3EgXb2A5n0qH3YOOWP9Xa3ip3mMizAOlFuyIl2XYGxI3gmVEDLJFvmtGlhogAAA=);
+    url(../img/knockonwood-720.webp),
+    url(data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAQBQCdASoUABQAPu1urlIppiQiqAgBMB2JbACdMoSCmA5NQQ3ieoyLHyvOhuxvhfAAAP6DbR/SaD6Ir2TZr2C8pjDOSE3WH4jfpAyRJxqzeRCnNn4BBnMKa0RNnqSEmuLkAnf7wd+CcptBYgf8kq+mGQox+UvQXvd8HMZm94gm/lvWuJvWLiZojsIPnoHSFZ6iEGmpQ1aUfI5X/Zzd0/dC8tEZuvNLNVW/lwhHfOoHvV3otB9kocCtvht7wiK/z7AAAA==);
   background-position: center 25%; /* keep the face in frame on wide screens */
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,16 +56,16 @@ body::before {
 @media (min-width: 1000px), (min-height: 1000px) {
   body::before {
     background-image:
-      url(../img/ahighertruth-1280.webp),
-      url(data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAACQBQCdASoUAB4APuVepk2pJSOiN/VYASAciUATpmNn7s/4HuPElmlaLYxYAEMIAXvOUFODgAD+9gviMFnvNs2TB1NrlKxoa1BvGA5ZcDeQtwizonouUMXsELotAotfuo81aaLcQKIlOyKi9su2VjRSuIGO3EgXb2A5n0qH3YOOWP9Xa3ip3mMizAOlFuyIl2XYGxI3gmVEDLJFvmtGlhogAAA=);
+      url(../img/knockonwood-1280.webp),
+      url(data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAQBQCdASoUABQAPu1urlIppiQiqAgBMB2JbACdMoSCmA5NQQ3ieoyLHyvOhuxvhfAAAP6DbR/SaD6Ir2TZr2C8pjDOSE3WH4jfpAyRJxqzeRCnNn4BBnMKa0RNnqSEmuLkAnf7wd+CcptBYgf8kq+mGQox+UvQXvd8HMZm94gm/lvWuJvWLiZojsIPnoHSFZ6iEGmpQ1aUfI5X/Zzd0/dC8tEZuvNLNVW/lwhHfOoHvV3otB9kocCtvht7wiK/z7AAAA==);
   }
 }
 
 @media (min-width: 1600px) {
   body::before {
     background-image:
-      url(../img/ahighertruth-1920.webp),
-      url(data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAACQBQCdASoUAB4APuVepk2pJSOiN/VYASAciUATpmNn7s/4HuPElmlaLYxYAEMIAXvOUFODgAD+9gviMFnvNs2TB1NrlKxoa1BvGA5ZcDeQtwizonouUMXsELotAotfuo81aaLcQKIlOyKi9su2VjRSuIGO3EgXb2A5n0qH3YOOWP9Xa3ip3mMizAOlFuyIl2XYGxI3gmVEDLJFvmtGlhogAAA=);
+      url(../img/knockonwood-1400.webp),
+      url(data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAQBQCdASoUABQAPu1urlIppiQiqAgBMB2JbACdMoSCmA5NQQ3ieoyLHyvOhuxvhfAAAP6DbR/SaD6Ir2TZr2C8pjDOSE3WH4jfpAyRJxqzeRCnNn4BBnMKa0RNnqSEmuLkAnf7wd+CcptBYgf8kq+mGQox+UvQXvd8HMZm94gm/lvWuJvWLiZojsIPnoHSFZ6iEGmpQ1aUfI5X/Zzd0/dC8tEZuvNLNVW/lwhHfOoHvV3otB9kocCtvht7wiK/z7AAAA==);
   }
 }
 
